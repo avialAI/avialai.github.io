@@ -18,7 +18,7 @@
  *  11. about
  *  12. pricing 
  *  13. testimonials
- *  14. download
+ *  14. technology
  *  15. footer styles
  *
  * =================================================================== */
@@ -780,9 +780,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .button.button-primary:hover,
@@ -795,8 +795,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #dd5349;
+  background: #ffffff;
   border-color: #ffffff;
+  color: #000000;
 }
 
 button.full-width,
@@ -1833,14 +1834,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #about {
-  min-height: 786px;
+  min-height: 500px;
   background: #ffffff;
   padding-top: 18rem;
   overflow: hidden;
 }
 
 .about-intro {
-  padding-bottom: 3.6rem;
+  padding-bottom: 2.6rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 
@@ -2469,89 +2470,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     font-size: 2rem;
   }
 }
-
-
-/* ===================================================================
- *  14. download - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
-
-#download {
-  background: #000000;
-  color: #b2fabc;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-  text-align: center;
-}
-
-#download h1 {
-  color: #ffffff;
-}
-
-#download h1::before {
-  background-color: #2a9038;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-#download .lead {
-  color: #b2fabc;
-  margin-top: 4.8rem;
-}
-
-#download .row {
-  max-width: 800px;
-}
-
-#download .download-badges {
-  list-style: none;
-  margin: 0;
-  text-align: center;
-}
-
-#download .download-badges li {
-  display: inline-block;
-  margin: 0 7.5px;
-  padding-left: 0;
-}
-
-#download .download-badges li a {
-  display: block;
-  width: 230px;
-  height: 71px;
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 230px 71px;
-}
-
-#download .download-badges li a.badge-appstore {
-  background-image: url("../images/appstore.png");
-}
-
-#download .download-badges li a.badge-googleplay {
-  background-image: url("../images/google-play.png");
-}
-
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * download
- * ------------------------------------------------------------------- */
-
-@media only screen and (max-width: 768px) {
-  #download .download-badges li a {
-    width: 194px;
-    height: 60px;
-    background-size: 194px 60px;
-  }
-}
-
-
 
 /* ===================================================================
  *  15. footer styles - (_site-layout.scss)
