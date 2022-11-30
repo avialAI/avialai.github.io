@@ -780,8 +780,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #39b54a;
-  border-color: #39b54a;
+  background-color: #000000;
+  border-color: #ffffff;
   color: #FFFFFF;
 }
 
@@ -795,8 +795,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #309a3f;
-  border-color: #309a3f;
+  background: #dd5349;
+  border-color: #ffffff;
 }
 
 button.full-width,
@@ -2477,7 +2477,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #39b54a;
+  background: #000000;
   color: #b2fabc;
   padding-top: 12rem;
   padding-bottom: 12rem;
