@@ -1075,7 +1075,7 @@ h1.intro-header {
   font-family: "montserrat-regular", sans-serif;
   font-size: 3.4rem;
   line-height: 1.324;
-  color: #151515;
+  color: #ffffff;
   position: relative;
   padding-bottom: 3.6rem;
 }
@@ -1835,7 +1835,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #about {
   min-height: 500px;
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.07);
   padding-top: 18rem;
   overflow: hidden;
 }
